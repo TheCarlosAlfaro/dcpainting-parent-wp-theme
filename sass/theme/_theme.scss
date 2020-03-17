@@ -1,0 +1,40 @@
+// This is an empty scss file for your custom styles - Please add your super duper awesome mega design styles here
+
+/* DC CUSTOM STYLES */
+.cta-link {
+	border: 2px solid #fefefe;
+	border-radius: 10px;
+	margin-left: 1rem;
+}
+
+#main-slider .carousel-item {
+	background-size: cover !important;
+	background-position: center !important;
+	height: 88vh;
+}
+
+#main-slider .carousel-item .carousel-caption h3 a {
+	text-transform: uppercase;
+	font-size: 4rem;
+}
+
+.carousel-caption {
+	position: absolute;
+	right: 25vw;
+	bottom: 40vh;
+	left: 25vw;
+	z-index: 10;
+	padding-top: 20px;
+	padding-bottom: 20px;
+	color: #fff;
+	text-align: center;
+}
+
+.page-template-template-home nav.navbar {
+	background-color: rgba($primary, 0.88);
+	padding: 1em 0;
+}
+
+.navbar-brand {
+	max-width: 180px;
+}
